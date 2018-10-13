@@ -1,19 +1,41 @@
-.RMcry {
+#RMcry {
     width: 350px;
     height: 300px;
 }
 
-.RMface {
+#RMface {
     width: 350px;
     height: 300px;
 }
 
-.RMfingers {
+#RMfingers {
     width: 350px;
     height: 300px;
 }
 
-.meeseeks {
+#meeseeks {
     width: 350px;
     height: 300px;
 }
+
+#number-to-guess, h1 {
+    text-align: center;
+    color: darkgreen;
+}
+
+h2, #the-counter, h3 {
+    text-align: center;
+    color: darkgreen;
+    font-style: italic;
+}
+
+h4 {
+    text-align: center;
+    color: darkgreen;
+    font-size: 25px;
+}
+
+body {
+   background-color: lightblue;
+}
+

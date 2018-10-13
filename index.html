@@ -5,6 +5,7 @@
         <meta charset="UTF-8">
         <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>        
         <script type="text/javascript" src="assets/javascript/game.js"></script>
+        <!-- <link rel="stylesheet" type="text/css" href= "assets/css/reset.css"> -->
         <link rel="stylesheet" type="text/css" href="assets/css/style.css">
         <title>Rick & Morty Game</title>
     </head>
@@ -12,16 +13,17 @@
         
     <h1>End Goal: <span id="number-to-guess"></span></h1>
     <h2>Current Result: <span id="the-counter"></span></h2>
+    <h3>Press a picture to get started! <span id="start"></span></h3>
     
         <div id="rickmorty">
-            <button><img class="RMcry" src="assets/images/cry.jpg" alt="cry"></button>
-            <button><img class="RMface" src="assets/images/face.jpg" alt="face"></button>
-            <button><img class="RMfingers" src="assets/images/fingers.jpg" alt="fingers"></button>
-            <button><img class="meeseeks" src="assets/images/meeseeks.jpg" alt="seeks"></button>
+            <button><img id="RMcry" src="assets/images/cry.jpg" alt="cry"></button>
+            <button><img id="RMface" src="assets/images/face.jpg" alt="face"></button>
+            <button><img id="RMfingers" src="assets/images/fingers.jpg" alt="fingers"></button>
+            <button><img id="meeseeks" src="assets/images/meeseeks.jpg" alt="seeks"></button>
         </div>
-    <h3>Wins: <span id="wins"></span> <br>
+    <h4>Wins: <span id="wins"></span> <br>
         Losses: <span id="losses"></span>
-    </h3>
+    </h4>
      
  </body>   
 </html>
